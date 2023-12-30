@@ -8,6 +8,13 @@
   --color-secondary-light-gray-blu: hsl(220, 16%, 96%);
   --color-secondary-very-light-gray: hsl(0, 0%, 98%);
 }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 
 * {
   font-size: 18px;
@@ -295,9 +302,7 @@ h2 {
   font-size: 10px;
 }
 
-/*-------------------------------------------------------*/
 /*---------------------MEDIA 830PX--------------------------*/
-/*---------------------------------------------------------*/
 
 @media screen and (min-width: 830px) {
   p {
@@ -355,7 +360,6 @@ h2 {
 
   /*---------------------FEAUTURES--------------------------*/
   .features {
-    /* margin-top: -7%; */
     text-align: left;
     padding: 110px 5%;
   }
@@ -429,7 +433,6 @@ h2 {
     padding-left: 10%;
   }
   .features {
-    /* margin-top: -7%; */
     padding: 110px 10%;
   }
   .latest {
